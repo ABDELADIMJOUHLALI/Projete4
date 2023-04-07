@@ -1,2 +1,18 @@
-# Projete4
-ando
+
+var namesArray = ["John", "Jane", "Jim", "Jacob", "Jasmine", "Julia", "Jessica", "Jack"];
+
+
+for (var i = 0; i < namesArray.length; i++) 
+{
+var name = namesArray[i];
+
+
+if (name.charAt(0) === "j" || name.charAt(0) === "J") 
+{
+console.log("Goodbye " + name);
+} 
+else 
+{
+console.log("Hello " + name);
+}
+}
